@@ -1,0 +1,25 @@
+{
+  "name": "vue-fetch",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^3.6.2",
+    "@nuxt/schema": "^3.6.2",
+    "cypress": "^12.17.0",
+    "ofetch": "^1.1.1",
+    "unplugin-auto-import": "^0.16.6",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0",
+    "vue-tsc": "^1.8.3"
+  }
+}
